@@ -4,8 +4,8 @@ pipeline {
      maven 'M2_HOME'
   }
   environment {
-     registry = "atabonglefac/darinpope-dockerhub"
-     registryCredential = 'darinpope-dockerhub'
+     registry = "MelanieAsong/my-dockerhub-credentials"
+     registryCredential = 'my-dockerhub-credentials'
   }
   stages {
     stage('Build'){
